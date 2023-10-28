@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.registration-status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+
+.registration-image {
+  width: 70%;
+}
+
+.register-button {
+  background-color: #0967d2;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+}

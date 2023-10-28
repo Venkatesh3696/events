@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.left-container {
+  width: 60%;
+  background-color: #64748b;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 28px;
+}
+
+.events-list-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.events-list {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.list-item {
+  width: 45%;
+  margin: 5px;
+}
+
+.right-container {
+  width: 40%;
+}
